@@ -6,7 +6,7 @@
 
 - [产品文档](https://docs.we-together.club/)
 - [浏览器扩展下载与安装](https://docs.we-together.club/download/)
-- [Cloud 1.2.1 发布页](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.1)
+- [Cloud 1.2.2 发布页](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.2)
 - [Cloud Compose 模板](./compose/cloud/compose.yaml)
 - [Cloud 环境变量示例](./compose/cloud/.env.example)
 
@@ -62,7 +62,7 @@ docker compose -f compose.yaml logs --tail 100 cloud
 
 ## 当前版本
 
-当前 Cloud `1.2.1` 已正式发布。查看[发布说明](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.1)了解首次部署、升级和回滚步骤。
+当前 Cloud `1.2.2` 已正式发布。查看[发布说明](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.2)了解首次部署、升级和回滚步骤。
 
 部署后可以访问 `/health`，或登录 Cloud 管理台确认服务、设备连接和同步状态。
 
