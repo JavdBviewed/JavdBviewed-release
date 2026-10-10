@@ -4,39 +4,39 @@
   "channel": "stable",
   "releaseStatus": "released",
   "latest": {
-    "version": "1.0.1",
-    "versionCode": 38,
-    "tag": "mobile-v38",
-    "commit": "c2ac69cb67515ddd76d96294f3ff7c36b8ea92f4",
-    "buildNumber": "git-c2ac69c",
-    "releasedAt": "2026-10-10T00:50:51Z",
+    "version": "1.0.2",
+    "versionCode": 39,
+    "tag": "mobile-v39",
+    "commit": "70e09b4da57f4d2f6a59a846af8327960bb2ab6c",
+    "buildNumber": "git-70e09b4",
+    "releasedAt": "2026-10-10T06:22:03Z",
     "artifacts": [
       {
         "path": "app-arm64-v8a-release.apk",
         "size": 61404445,
-        "sha256": "c5b5d72afdf0da63e358f724f87d846ffab831822377d271511bed20a54f883a",
-        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v38/app-arm64-v8a-release.apk"
+        "sha256": "16e1b1c651d7a486503ea94aec8e6f415dc04ff2ff72b05091eac5a48925fb87",
+        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v39/app-arm64-v8a-release.apk"
       },
       {
         "path": "app-armeabi-v7a-release.apk",
         "size": 46631523,
-        "sha256": "03da1fb18b2b71649b1dcfc84709708f76fc7e9bac3c635564dd689d5c3925a8",
-        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v38/app-armeabi-v7a-release.apk"
+        "sha256": "3d2bdf9d1a8f9fcb7a63321bcfedcc10b512b97ddcd649f887b613da4ae26171",
+        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v39/app-armeabi-v7a-release.apk"
       },
       {
         "path": "app-x86_64-release.apk",
         "size": 69625412,
-        "sha256": "c9200dd8fecbe4bd9aee53aff881bf2a986dfe7a6ad192994574241f96efce0e",
-        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v38/app-x86_64-release.apk"
+        "sha256": "59678d0e2e602a8e59eaa821eefaef77313fff16273c2bd99bb9df60e39cae71",
+        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v39/app-x86_64-release.apk"
       },
       {
         "path": "app-universal-release.apk",
         "size": 217065667,
-        "sha256": "f03b75eac6fb9a96f6bf04adeb3ae2a82f4b693f79120052f58de6da7b6a06b4",
-        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v38/app-universal-release.apk"
+        "sha256": "7969015fcb261b01df4836ac6119f16048b3cc7ff21f5bc19e40c14403bc0862",
+        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/mobile-v39/app-universal-release.apk"
       }
     ],
-    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/mobile/v1.0.1.md",
+    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/mobile/v1.0.2.md",
     "critical": false,
     "security": false,
     "requiresBackup": false
