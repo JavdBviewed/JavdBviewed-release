@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "product": "javdbviewed-desktop",
+  "channel": "stable",
+  "releaseStatus": "released",
+  "latest": {
+    "version": "0.1.0",
+    "tag": "desktop-v0.1.0",
+    "commit": "8cdb56254f31ae07067582b372c318251eb4bc86",
+    "buildNumber": "git-8cdb56254f31",
+    "releasedAt": "2026-11-03T15:19:55Z",
+    "artifacts": [
+      {
+        "path": "JavdBviewed-desktop-0.1.0-win-x64.exe",
+        "size": 92663187,
+        "sha256": "fa96118f9fb5f983c106a5d0369e306f84ebbcdb6093e3ce8a791058f39fb1c7",
+        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/desktop-v0.1.0/JavdBviewed-desktop-0.1.0-win-x64.exe"
+      },
+      {
+        "path": "JavdBviewed-desktop-0.1.0-win-x64.exe.blockmap",
+        "size": 97835,
+        "sha256": "cd57f74b1ca075c77c9b8d3ecec1cc2f4b635d5176578b9bed7d4da9ff129e4c",
+        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/desktop-v0.1.0/JavdBviewed-desktop-0.1.0-win-x64.exe.blockmap"
+      },
+      {
+        "path": "latest.yml",
+        "size": 370,
+        "sha256": "caa41f953346252a251c2fe2c800eba56307b25c3a1300c2b4dc1e67816b1d2e",
+        "downloadUrl": "https://github.com/JavdBviewed/JavdBviewed-release/releases/download/desktop-v0.1.0/latest.yml"
+      }
+    ],
+    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/desktop/v0.1.0.md",
+    "critical": false,
+    "security": false,
+    "requiresBackup": false
+  }
+}
