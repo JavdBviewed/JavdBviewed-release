@@ -4,24 +4,24 @@
   "channel": "stable",
   "releaseStatus": "released",
   "latest": {
-    "version": "1.2.8",
-    "commit": "db28c47fc0eba6065b8990342418325af756aa10",
-    "buildNumber": "git-db28c47fc0eb",
-    "releasedAt": "2026-11-03T17:13:57Z",
-    "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.2.8",
-    "imageDigest": "sha256:3b34515ccf2944bcb121dbe32504c8aeae789be2050480646b717a9f7b81d7c4",
-    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.2.8.md",
+    "version": "1.2.9",
+    "commit": "4b477f028824b3857a4fe23446db339716f75630",
+    "buildNumber": "git-4b477f028824",
+    "releasedAt": "2026-11-06T05:23:41Z",
+    "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.2.9",
+    "imageDigest": "sha256:4cef4e8319426664eaf25960bf794d3c1ed64b254b5d286f6bdeb1fca43ab495",
+    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.2.9.md",
     "critical": false,
     "security": false,
     "requiresBackup": true,
-    "migrationRisk": "low",
+    "migrationRisk": "medium",
     "minCurrentVersion": "1.0.0"
   },
   "messages": [
     {
       "level": "info",
-      "title": "更新前建议创建快照",
-      "body": "升级前请先在 Cloud 数据管理中创建快照，并备份宿主机 data 目录。Cloud 只提示更新，不会自动替换容器。"
+      "title": "升级前请备份数据目录和密钥文件",
+      "body": "升级前备份宿主机 data 目录；首次启动会生成 vault.key，之后务必将它和数据库一起备份。升级后登录一次管理台迁移旧版会话。Cloud 不会自动替换容器。"
     }
   ]
 }
