@@ -4,13 +4,13 @@
   "channel": "stable",
   "releaseStatus": "released",
   "latest": {
-    "version": "1.2.9",
-    "commit": "4b477f028824b3857a4fe23446db339716f75630",
-    "buildNumber": "git-4b477f028824",
-    "releasedAt": "2026-11-06T05:23:41Z",
-    "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.2.9",
-    "imageDigest": "sha256:4cef4e8319426664eaf25960bf794d3c1ed64b254b5d286f6bdeb1fca43ab495",
-    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.2.9.md",
+    "version": "1.2.10",
+    "commit": "a949e599352ce427291ce18d802eb993e20c9924",
+    "buildNumber": "git-a949e599352c",
+    "releasedAt": "2026-11-08T05:37:16Z",
+    "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.2.10",
+    "imageDigest": "sha256:9e94d1727b2df243d885196a087bf8dfd87f742c690db144e75e8dd923fb5db4",
+    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.2.10.md",
     "critical": false,
     "security": false,
     "requiresBackup": true,
@@ -20,8 +20,8 @@
   "messages": [
     {
       "level": "info",
-      "title": "升级前请备份数据目录和密钥文件",
-      "body": "升级前备份宿主机 data 目录；首次启动会生成 vault.key，之后务必将它和数据库一起备份。升级后登录一次管理台迁移旧版会话。Cloud 不会自动替换容器。"
+      "title": "升级前备份数据库与密钥",
+      "body": "请将 data 目录和 vault.key 一起备份。旧格式 JavDB 会话需正常登录或由兼容拓展重新上传；先升级支持来源报告的客户端，再启用共享来源的云端自动索引。Cloud 不会自动替换容器。"
     }
   ]
 }

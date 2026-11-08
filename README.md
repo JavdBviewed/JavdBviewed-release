@@ -6,7 +6,7 @@
 
 - [产品文档](https://docs.we-together.club/)
 - [浏览器扩展下载与安装](https://docs.we-together.club/download/)
-- [Cloud 1.2.9 发布页](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.9)
+- [Cloud 1.2.10 发布页](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.10)
 - [Cloud Compose 模板](./compose/cloud/compose.yaml)
 - [Cloud 环境变量示例](./compose/cloud/.env.example)
 
@@ -56,13 +56,13 @@ docker compose -f compose.yaml logs --tail 100 cloud
 | `CLOUD_JWT_SECRET` | 登录和设备令牌的签名密钥，生产环境必填且不要随意更换。 |
 | `CLOUD_ADMIN_PASSWORD` | 首次管理员密码；留空时由服务生成并只在首次启动日志输出一次。 |
 | `CLOUD_CORS_ORIGINS` | 浏览器 Origin 白名单，多个值使用英文逗号分隔。 |
-| `CLOUD_UPDATE_MANIFEST_MIRRORS` | 更新清单加速地址，多个地址使用英文逗号分隔。 |
+| `CLOUD_UPDATE_MANIFEST_MIRRORS` | 自定义更新清单完整 URL，逗号分隔；留空时使用官方地址与内置备用地址。 |
 
 不要在公开 issue、截图、Compose 文件或仓库提交中暴露 JWT 密钥、管理员密码和 Cloud 数据目录。
 
 ## 当前版本
 
-当前 Cloud `1.2.9` 已正式发布。查看[发布说明](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.9)了解首次部署、升级和回滚步骤。
+当前 Cloud `1.2.10` 已正式发布。查看[发布说明](https://github.com/JavdBviewed/JavdBviewed-release/releases/tag/cloud-v1.2.10)了解首次部署、升级和回滚步骤。
 
 部署后可以访问 `/health`，或登录 Cloud 管理台确认服务、设备连接和同步状态。
 
