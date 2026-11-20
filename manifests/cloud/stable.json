@@ -33,8 +33,8 @@
     "version": "1.3.1",
     "status": "pending-image",
     "tag": "cloud-v1.3.1",
-    "commit": "629272a863e39a613065e450b74797380d54c835",
-    "buildNumber": "git-629272a863e3",
+    "commit": "2c3e411dea4bcb2f1d0e0709f04faf65f224e6e7",
+    "buildNumber": "git-2c3e411dea4b",
     "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.3.1",
     "imageDigest": null,
     "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.3.1.md",
@@ -43,7 +43,7 @@
     "requiresBackup": true,
     "migrationRisk": "medium",
     "minCurrentVersion": "1.0.0",
-    "preparedAt": "2026-11-20T12:56:42Z",
-    "note": "镜像未推送（GHCR write:packages 权限补齐中）。updatecheck 消费端仅比较 latest.version，故 latest 保持 1.2.11；待 docker push 成功后，本块转正为 latest 并回填真实 imageDigest，届时同步更新 messages。"
+    "preparedAt": "2026-11-20T13:35:00Z",
+    "note": "镜像未推送（13:32 实测 docker push 仍 permission_denied，token exchange 被降级；权限侧解决后重试）。发布对象已重对准 2c3e411（同步弹窗批合流）。updatecheck 消费端仅比较 latest.version，故 latest 保持 1.2.11；待 docker push 成功后，本块转正为 latest 并回填真实 imageDigest，届时同步更新 messages。"
   }
 }
