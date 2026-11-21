@@ -4,13 +4,13 @@
   "channel": "stable",
   "releaseStatus": "released",
   "latest": {
-    "version": "1.2.11",
-    "commit": "c54531ebf6e1a30edc2530f2a9bde4238a56a869",
-    "buildNumber": "git-c54531ebf6e1",
-    "releasedAt": "2026-11-13T09:14:47Z",
-    "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.2.11",
-    "imageDigest": "sha256:bc2219ddf027471f25b37a101b9dbfcd9c351e97993ff62a6af0d79867094e92",
-    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.2.11.md",
+    "version": "1.3.1",
+    "commit": "2c3e411dea4bcb2f1d0e0709f04faf65f224e6e7",
+    "buildNumber": "git-2c3e411dea4b",
+    "releasedAt": "2026-11-21T08:29:00Z",
+    "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.3.1",
+    "imageDigest": "sha256:c3cfad10c5c0326bfa39e8bb720fe6f9bb8b271e7e61e0fa573f178fc381dca6",
+    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.3.1.md",
     "critical": false,
     "security": false,
     "requiresBackup": true,
@@ -22,28 +22,6 @@
       "level": "info",
       "title": "升级前备份数据库与密钥",
       "body": "请将 data 目录和 vault.key 一起备份。旧格式 JavDB 会话需正常登录或由兼容拓展重新上传；先升级支持来源报告的客户端，再启用共享来源的云端自动索引。Cloud 不会自动替换容器。"
-    },
-    {
-      "level": "info",
-      "title": "1.3.1 版本发布进行中（镜像未推送，勿切 ghcr 引用）",
-      "body": "发布说明与待发布清单已就绪：1.2.11 起累计变更见 releases/cloud/v1.3.1.md；ghcr.io/javdbviewed/javdbviewed-cloud:1.3.1 尚未上传，updatecheck 仍按 1.2.11 判定，镜像补齐前请勿将 CLOUD_IMAGE_NAME 切为 ghcr :1.3.1。"
     }
-  ],
-  "pendingRelease": {
-    "version": "1.3.1",
-    "status": "pending-image",
-    "tag": "cloud-v1.3.1",
-    "commit": "2c3e411dea4bcb2f1d0e0709f04faf65f224e6e7",
-    "buildNumber": "git-2c3e411dea4b",
-    "image": "ghcr.io/javdbviewed/javdbviewed-cloud:1.3.1",
-    "imageDigest": null,
-    "releaseNotesUrl": "https://github.com/JavdBviewed/JavdBviewed-release/blob/main/releases/cloud/v1.3.1.md",
-    "critical": false,
-    "security": false,
-    "requiresBackup": true,
-    "migrationRisk": "medium",
-    "minCurrentVersion": "1.0.0",
-    "preparedAt": "2026-11-20T13:35:00Z",
-    "note": "镜像未推送（13:32 实测 docker push 仍 permission_denied，token exchange 被降级；权限侧解决后重试）。发布对象已重对准 2c3e411（同步弹窗批合流）。updatecheck 消费端仅比较 latest.version，故 latest 保持 1.2.11；待 docker push 成功后，本块转正为 latest 并回填真实 imageDigest，届时同步更新 messages。"
-  }
+  ]
 }
